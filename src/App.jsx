@@ -45,9 +45,12 @@ function App() {
     <div className="w-screen h-screen">
       <div className="
           h-screen w-screen 
-          flex justify-center items-center 
+          flex flex-col justify-center items-center gap-4   
           bg-[url('./images/bg_pattern.png')] bg-center bg-contain
       ">
+        <div className='text-7xl bg-white shadow-lg font-bold rounded-lg h-32 w-2/3 flex justify-center items-center'>Add Your Business
+
+        </div>
         <div className="h-4/5 w-2/3 bg-white shadow-lg rounded-xl flex flex-col p-10">
           <span className="text-4xl font-bold">Dashboard</span>
           <div className="border-2 border-rose-500 my-3 rounded-lg"></div>
