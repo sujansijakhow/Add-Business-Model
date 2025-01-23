@@ -63,6 +63,7 @@ function App() {
                 font-bold text-white 
                 rounded-lg
                 flex gap-2 items-center
+                hover:text-xl
               ">
               Add Business
               <GoPlus size={30}/>
