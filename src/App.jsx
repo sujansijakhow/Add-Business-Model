@@ -48,7 +48,7 @@ function App() {
           flex flex-col justify-center items-center gap-4   
           bg-[url('./images/bg_pattern.png')] bg-center bg-contain
       ">
-        <div className='text-7xl bg-white shadow-lg font-bold rounded-lg h-32 w-2/3 flex justify-center items-center'>Add Your Business
+        <div className='text-5xl bg-white shadow-lg font-bold rounded-lg h-32 w-2/3 flex justify-center items-center hover:bg-black hover:text-white hover:text-7xl transition-all duration-500 ease-in-out'>Add Your Business
 
         </div>
         <div className="h-4/5 w-2/3 bg-white shadow-lg rounded-xl flex flex-col p-10">
