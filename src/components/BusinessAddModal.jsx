@@ -72,7 +72,7 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
         h-screen  w-screen
         flex justify-center items-center
         transition-all
-        ${businessAddModalIsOpen ? 'bg-black/60 visible' : 'invisible'}
+        ${businessAddModalIsOpen ? 'bg-black/50 visible' : 'invisible'}
       `}>
         <div 
           onClick={(e) => e.stopPropagation()}
@@ -107,7 +107,8 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
               value={businessName}
               type="text" placeholder=' ' className="
               border-[3px]
-              border-rose-500
+              border-rose-400
+              focus:border-rose-600
               rounded-lg
               p-3
               outline-none
@@ -138,7 +139,8 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
               value={businessDate}
               type="text" placeholder=' ' className="
               border-[3px]
-              border-rose-500
+              border-rose-400
+              focus:border-rose-600
               rounded-lg
               p-3
               outline-none
