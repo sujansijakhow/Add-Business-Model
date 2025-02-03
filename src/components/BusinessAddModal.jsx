@@ -77,7 +77,7 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
         <div 
           onClick={(e) => e.stopPropagation()}
           className={`
-          h-4/5 w-1/3
+          h-[700px] md:h-4/5 w-2/3 md:w-1/2 lg:w-2/5
           bg-white
           rounded-lg
           shadow-lg
@@ -89,8 +89,8 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
           <div className="
             flex flex-row justify-between items-center
           ">
-            <span className="font-bold text-3xl text-slate-800">Add a Business</span>
-            <RxCross2 onClick={onClose} size={30} color='gray' className='cursor-pointer' />
+            <span className="font-bold text-xl md:text-2xl text-slate-800">Add a Business</span>
+            <RxCross2 onClick={onClose} color='gray' className='cursor-pointer md:size-5' />
           </div>
           <div className="
             my-5
@@ -167,7 +167,7 @@ const BusinessAddModal = ({ businessAddModalIsOpen, setBusinessAddModalIsOpen, h
           </div>
           
           <span className="font-bold text-xl text-slate-800">Add Business Location</span>
-          <div className='overflow-hidden w-full h-1/2 mt-2'>
+          <div className='overflow-hidden w-full h-[270px] md:h-1/2 mt-2'>
             <Map currentMarkerPosition={markerCoords} setCurrentMarkerPosition={setMarkerCoords} />
           </div>
 
